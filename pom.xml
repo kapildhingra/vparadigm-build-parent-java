@@ -60,8 +60,8 @@
 		<mockito.version>1.9.0-rc1</mockito.version>
 	</properties>
 	
-    <repositories>
 <!--	
+    <repositories>
         <repository>
             <id>embedded</id>
             <name>Embedded Repository</name>
@@ -72,19 +72,19 @@
             <name>Embedded Repository</name>
             <url>file://${session.executionRootDirectory}/repository</url>
         </repository>
--->		
     </repositories>
 
 	<distributionManagement>
 		<repository>
 			<id>releases</id>
-			<url><!-- RELEASE URL --></url>
+			<url>[RELEASE URL]</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url><!-- SNAPSHOT URL --></url>
+			<url>[SNAPSHOT URL]</url>
 		</snapshotRepository>
 	</distributionManagement>
+-->		
 	
 	<dependencyManagement>
 		<dependencies>
